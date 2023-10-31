@@ -1,0 +1,55 @@
+@media(max-width:640px){
+    .popular-main-card {
+        min-width: 32%;
+    }
+    .second-card-content {
+        width: 197px;
+    }
+    .un-popular-main-card{
+        display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    }
+}
+@media(max-width:490px){
+    .popular-main-card {
+        min-width: 43%;
+    }
+    .second-card-content {
+      
+    }
+    .un-popular-main-card{
+   
+    }
+}
+@media(max-width:378px){
+    .popular-main-card {
+        min-width: 55%;
+    }
+    .second-card-content {
+      
+    }
+    .un-popular-main-card{
+   
+    }
+}
+@media(max-width:296px){
+    .popular-main-card {
+        min-width: 58%;
+    }
+    .second-card-content {
+      
+    }
+    .un-popular-main-card{
+   
+    }
+    .popular-bg-img{
+        width: 83%;
+    height: 245px;
+}
+.second-card-content {
+    width: 100%;
+}
+}

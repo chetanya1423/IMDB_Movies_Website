@@ -1,0 +1,43 @@
+@media(max-width:640px){
+    .Scrolling {
+        display: flex;
+        flex-direction: column;
+        margin-top: 54px;
+    }
+    .ScrollingImg{
+
+    }
+    .ScrollingImg img{
+
+    }
+    .Scrolling-con {
+        width: 78%;
+        display: flex;
+    }
+  
+    .Scrolling-uncon {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+    .Scrolling-uncon h1{
+        
+    }
+    .Scrolling-uncon p{
+        
+    }
+    .Scrolling-uncon button{
+        
+    }
+}
+@media(max-width:433px){
+    .Scrolling-uncon h1{
+        font-size: 21px;
+    }
+    .Scrolling-uncon p {
+        font-size: 10px;
+    }
+    .Scrolling-uncon button p{
+        font-size: 12px;
+    }
+}

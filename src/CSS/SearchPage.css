@@ -1,0 +1,8 @@
+@media(max-width:640px){
+    .searchpage{
+        
+    }
+    .un-searchpage{
+        /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+    }
+}

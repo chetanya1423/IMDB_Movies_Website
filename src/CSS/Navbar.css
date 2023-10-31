@@ -1,0 +1,120 @@
+@media(max-width:640px){
+   .Navbar{
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: -39%;
+    width: 39%;
+   }
+   .un-Navbar {
+    left: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+    height: 1500px;
+    transition: 1s;
+    margin-top: 25px;
+}
+.p-4 {
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.p-4 p{
+    padding: 12px;
+    font-size: 123%;
+}
+.active{
+    left: 0px;
+}
+.close{
+    left: 100%;
+}
+.menuIcon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 100%;
+}
+
+}
+@media(max-width:459px){
+    .Navbar{
+        position: absolute;
+        top: 40px;
+        left: -65%;
+        width: 65%;
+       }
+    .un-Navbar {
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+        height: 1500px;
+    }
+    .p-4 p{
+        font-size: 14px;
+    }
+    .active{
+        left: 0px;
+    }
+    .close{
+        left: 100%;
+    }
+}
+@media(max-width:314px){
+    .Navbar{
+        position: absolute;
+        top: 40px;
+        left: -65%;
+        width: 65%;
+       }
+    .un-Navbar {
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+        height: 1500px;
+    }
+    .p-4 p{
+        font-size: 12px;
+    }
+    .active{
+        left: 0px;
+    }
+    .close{
+        left: 100%;
+    }
+}
+@media(max-width:280px){
+    .Navbar{
+        position: absolute;
+        top: 40px;
+        left: -65%;
+        width: 65%;
+       }
+    .un-Navbar {
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+        height: 1500px;
+    }
+    .p-4 p{
+        font-size: 10px;
+    }
+    .active{
+        left: 0px;
+    }
+    .close{
+        left: 100%;
+    }
+}
